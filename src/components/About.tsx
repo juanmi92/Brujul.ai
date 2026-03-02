@@ -39,6 +39,7 @@ export const About = () => {
                 alt="Abstract AI Art" 
                 className="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-overlay"
                 referrerPolicy="no-referrer"
+                loading="lazy"
              />
           </div>
 

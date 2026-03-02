@@ -68,7 +68,7 @@ export const Hero = () => {
           </motion.p>
         )}
 
-        <h1 className="font-display font-black text-[10vw] leading-[0.8] tracking-tighter uppercase mix-blend-overlay text-white/90">
+        <h1 className="font-display font-black text-[clamp(3rem,10vw,8rem)] leading-[0.8] tracking-tighter uppercase mix-blend-overlay text-white/90">
           <motion.span
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -81,9 +81,9 @@ export const Hero = () => {
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
-            className="block flex items-center justify-center gap-4 md:gap-8"
+            className="block flex items-center justify-center gap-2 md:gap-8"
           >
-            <span className="text-4xl md:text-8xl font-light text-blue-500">+</span>
+            <span className="text-3xl md:text-8xl font-light text-blue-500">+</span>
             <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400">
               {t.hero.now}
             </span>
